@@ -1,0 +1,41 @@
+
+<form method= "post" action="procesar.php" >
+    <fieldset>
+        <legend> Your Details </legend>
+        <p> Name: </p>
+        <input type="text" name="nombre" maxlength="50">
+        <p> Email: </p>
+        <input type="email" name="email" maxlength="30">
+    </fieldset>
+
+    <fieldset>
+        <legend> Your Review: </legend>
+        <p> How did you hear about us? </p>
+        <select name= "plataformas" >
+            <option value= "Google" > Google </option>
+            <option value= "Instagram" > Instagram </option>
+            <option value= "Linkedin" > Linkedin </option>
+            <option value= "Other" > Other </option>
+
+        </select>
+        <p> Would you visit again? </p>
+        <input type= "radio" name= "answer" value= "yes">Yes
+        <input type= "radio" name= "answer" value= "no">No
+        <input type= "radio" name= "answer" value= "maybe">Maybe
+        <br>
+        <p> Comments: </p>
+        <textarea name="comentarios" ></textarea>
+        <br>
+        <br>
+        <input type="checkbox" name="check" value= "yes"> Sign me up for email updates 
+        <br>
+        <input type= "submit" value= "Submit review">
+
+    </fieldset>
+
+
+
+
+
+
+</form>
